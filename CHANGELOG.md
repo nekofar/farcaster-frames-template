@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.4] - 2024-01-31
+
+### Refactor
+
+- Add a og image as fallback for clients that do not support frames
+
 ## [1.0.0-alpha.3] - 2024-01-31
 
 ### Documentation
