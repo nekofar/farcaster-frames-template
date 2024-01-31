@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "root": true,
+  "extends": [
+    "plugin:unicorn/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "unicorn/prevent-abbreviations": "off"
+  },
+  "plugins": []
+}
