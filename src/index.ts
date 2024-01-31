@@ -11,6 +11,7 @@ app.get('/', (c) => {
   return c.html(html`
     <html lang="en">
       <head>
+        <meta property="og:image" content="${frameImage}" />
         <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content="${frameImage}" />
         <meta property="fc:frame:post_url" content="${framePostUrl}" />
