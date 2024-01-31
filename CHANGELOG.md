@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2024-01-31
+
+### Documentation
+
+- Update the readme file of the project
+- Add a new contributing guideline for the project
+
 ## [1.0.0-alpha.0] - 2024-01-31
 
 ### Features
