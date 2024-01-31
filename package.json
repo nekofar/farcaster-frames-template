@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "keywords": [
     "farcaster",
     "frames",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.7.0",
-    "hono": "^3.12.8"
+    "hono": "^3.12.9"
   },
   "devDependencies": {
     "@types/eslint": "8.56.2",
