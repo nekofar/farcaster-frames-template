@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.3] - 2024-01-31
+
+### Documentation
+
+- Update readme file improve usage section
+
 ## [1.0.0-alpha.2] - 2024-01-31
 
 ### Documentation

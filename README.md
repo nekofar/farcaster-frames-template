@@ -7,7 +7,7 @@
 [![Donate](https://img.shields.io/badge/donate-nekofar.crypto-a2b9bc?logo=ko-fi&logoColor=white)](https://ud.me/nekofar.crypto)
 
 Farcaster Frames Template is an easy-to-use template designed for beginners and experienced developers alike. It
-provides a robust starting point for building Farcaster frames, streamlining the development process. This template is
+provides a robust starting point for building Farcaster Frames, streamlining the development process. This template is
 ideal for those looking to create custom frames quickly and efficiently.
 
 ## Getting Started
@@ -44,6 +44,10 @@ without the need to deploy them. Everytime running your project, you will receiv
 example `https://thirty-glasses-tell.loca.lt`. You can directly copy this URL and test your frame using
 the [Warpcast Embed Tools](https://warpcast.com/~/developers/embeds). This makes the
 development and testing process much more efficient and straightforward.
+
+For detailed information on working with Farcaster Frames, refer to
+the [Farcaster Frames documentation](https://warpcast.notion.site/Farcaster-Frames-4bd47fe97dc74a42a48d3a234636d8c5).
+Additionally, to learn more about Hono, visit the [Hono documentation](https://hono.dev/top).
 
 ## Contributing
 
