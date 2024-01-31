@@ -1,0 +1,78 @@
+# Assign a name to the workflow.
+name: Template Cleanup
+
+# Specify when this workflow is going to be triggered.
+on:
+  # In this case, the workflow will be triggered whenever there is a push to the master branch.
+  push:
+    branches: [master]
+
+# Define the jobs that this workflow will perform.
+jobs:
+  # Declare a job named 'cleanup'.
+  cleanup:
+    # Specify the type of runner that the job should run on - Latest version of Ubuntu.
+    runs-on: ubuntu-latest
+
+    # Define permissions for this job.
+    permissions:
+      contents: write
+
+    # A conditional check to ensure the job runs only if the name of the repository meets the constraint.
+    if: github.repository != 'nekofar/farcaster-frames-template'
+
+    # Define the steps to be followed in this job.
+    steps:
+      # Checkout the code.
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+
+      # Set up Node.js environment.
+      - name: Set up Node.js environment
+        uses: actions/setup-node@v4.0.1
+
+      # Install pnpm package manager.
+      - name: Install pnpm package manager
+        uses: pnpm/action-setup@v2.4.0
+        with:
+          version: ^8
+          run_install: false
+
+      # Clean up the repository.
+      - name: Clean up the repository
+        # The 'run:' statement let's you execute commands directly.
+        run: |
+          # Declare and assign local variables.
+          NAME="$(basename $GITHUB_REPOSITORY)"
+          VERSION='1.0.0-alpha.0'
+
+          # Use pnpm dlx json to modify package.json name and version fields.
+          pnpm dlx json -I -f package.json -e "this.name='${NAME}'"
+          pnpm dlx json -I -f package.json -e "this.version='${VERSION}'"
+          pnpm install --no-frozen-lockfile  # Install dependencies (ignoring lock file)
+
+          # Remove template specific files and directories.
+          rm -rf \
+            .github/ISSUE_TEMPLATE \
+            .github/workflows/template.yml \
+            .github/workflows/git-flow.yml \
+            .github/dependabot.yml \
+            .github/FUNDING.yml \
+            .github/stale.yml \
+            CHANGELOG.md \
+            README.md
+
+      # Commit the changes made to the repository.
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m 'chore: initial template cleanup'
+
+      # Push the changes to the repository.
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
