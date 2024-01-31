@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "keywords": [
     "farcaster",
     "frames",
@@ -31,5 +31,8 @@
     "prettier-plugin-organize-attributes": "1.0.0",
     "prettier-plugin-organize-imports": "3.2.4",
     "tsx": "4.7.0"
+  },
+  "resolutions": {
+    "axios": ">=1.6.0"
   }
 }
