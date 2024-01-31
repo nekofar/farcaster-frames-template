@@ -1,4 +1,13 @@
 {
+  "name": "farcaster-frames-template",
+  "version": "1.0.0-alpha.0",
+  "keywords": [
+    "farcaster",
+    "frames",
+    "template"
+  ],
+  "author": "Milad Nekofar <milad@nekofar.com>",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "pnpm run '/^dev:.*/'",
     "dev:server": "tsx watch src/index.ts",
