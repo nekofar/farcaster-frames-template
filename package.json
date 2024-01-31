@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "pnpm run '/^dev:.*/'",
+    "dev:server": "tsx watch src/index.ts",
+    "dev:tunnel": "lt --port 3000"
   },
   "dependencies": {
     "@hono/node-server": "^1.7.0",
