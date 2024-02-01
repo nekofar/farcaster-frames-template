@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/eslint": "8.56.2",
     "@types/eslint-config-prettier": "6.11.3",
-    "@types/node": "20.11.13",
+    "@types/node": "20.11.15",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.1.3",
