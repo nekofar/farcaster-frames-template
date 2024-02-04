@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.6] - 2024-02-04
+
+### Refactor
+
+- Enhance code with best practices and optimizations
+- Add `FrameSignaturePacket` to the types
+
 ## [1.0.0-alpha.5] - 2024-02-04
 
 ### Features
