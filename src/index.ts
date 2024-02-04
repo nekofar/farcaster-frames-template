@@ -5,7 +5,8 @@ import { html } from 'hono/html'
 const app = new Hono()
 
 app.get('/', (c) => {
-  const frameImage = 'https://placehold.co/600x400?text=Hello+World'
+  const imageText = 'Hello World'
+  const frameImage = `https://placehold.co/600x400?text=${imageText}`
   const framePostUrl = c.req.url
 
   return c.html(html`
@@ -34,9 +35,11 @@ app.post('/', async (c) => {
     untrustedData: { buttonIndex },
   } = body
   const backgroundColors = [undefined, 'green', 'purple', 'red', 'blue']
-  const imageBackground = backgroundColors[buttonIndex]
 
-  const frameImage = `https://placehold.co/600x400/${imageBackground}/white?text=Hello+World`
+  const imageText = 'Hello World'
+  const imageColor = backgroundColors[buttonIndex]
+
+  const frameImage = `https://placehold.co/600x400/${imageColor}/white?text=${imageText}`
   const framePostUrl = c.req.url
 
   return c.html(html`
