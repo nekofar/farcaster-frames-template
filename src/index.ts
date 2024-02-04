@@ -1,6 +1,7 @@
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 import { html } from 'hono/html'
+import type { FrameSignaturePacket } from './types'
 
 const app = new Hono()
 
@@ -30,7 +31,7 @@ app.get('/', (c) => {
 
 app.post('/', async (c) => {
   try {
-    const body = await c.req.json()
+    const body = await c.req.json<FrameSignaturePacket>()
     const { buttonIndex, inputText } = body.untrustedData
 
     const backgroundColors = ['green', 'purple', 'red', 'blue']
