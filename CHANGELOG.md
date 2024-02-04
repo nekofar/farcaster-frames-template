@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2024-02-04
+
+### Miscellaneous Tasks
+
+- Enable `engine-strict` on the `.npmrc`
+- Add specified `node` and `pnpm` minimum version in `package.json`
+
 ## [1.0.0-alpha.6] - 2024-02-04
 
 ### Refactor
