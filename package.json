@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "pnpm run '/^dev:.*/'",
     "dev:server": "tsx watch src/index.ts",
-    "dev:tunnel": "lt --port 3000"
+    "dev:tunnel": "lt --port 3000",
+    "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
     "@hono/node-server": "^1.7.0",
