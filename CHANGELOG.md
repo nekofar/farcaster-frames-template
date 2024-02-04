@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.5] - 2024-02-04
+
+### Features
+
+- Add simple use case for using input texts
+
+### Refactor
+
+- Update codes to improve code readability
+
+### Documentation
+
+- Update the link to farcaster frames docs
+
+### Miscellaneous Tasks
+
+- Add a new `lint` script for running `eslint`
+- Update eslint rules and parser on `.eslintrc.json`
+
 ## [1.0.0-alpha.4] - 2024-01-31
 
 ### Refactor
