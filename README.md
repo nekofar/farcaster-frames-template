@@ -46,7 +46,7 @@ the [Warpcast Embed Tools](https://warpcast.com/~/developers/embeds). This makes
 development and testing process much more efficient and straightforward.
 
 For detailed information on working with Farcaster Frames, refer to
-the [Farcaster Frames documentation](https://warpcast.notion.site/Farcaster-Frames-4bd47fe97dc74a42a48d3a234636d8c5).
+the [Farcaster Frames documentation](https://docs.farcaster.xyz/learn/what-is-farcaster/frames).
 Additionally, to learn more about Hono, visit the [Hono documentation](https://hono.dev/top).
 
 ## Contributing
