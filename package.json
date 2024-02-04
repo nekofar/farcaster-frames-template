@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "keywords": [
     "farcaster",
     "frames",
@@ -38,5 +38,9 @@
   },
   "resolutions": {
     "axios": ">=1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
   }
 }
