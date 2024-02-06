@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.8] - 2024-02-06
+
+### Documentation
+
+- Update `README.md` to add instructions for using the template
+- Update `README.md` to improve sections headers
+
 ## [1.0.0-alpha.7] - 2024-02-04
 
 ### Miscellaneous Tasks
