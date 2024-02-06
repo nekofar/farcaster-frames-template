@@ -18,11 +18,25 @@ ideal for those looking to create custom frames quickly and efficiently.
 - A text editor like VSCode
 - Basic understanding of TypeScript and Node.js
 
+## Using This Template
+
+You can use this repository as a template to create a new GitHub repository with the same directory structure and files.
+Here's how:
+
+1. On the [repository page](https://github.com/nekofar/farcaster-frames-template), click the **Use this template**
+   button.
+2. Choose the owner of the new repository and enter a repository name.
+3. Optionally, add a description for your repository.
+4. Choose the repository visibility (Public or Private).
+5. Click **Create repository from template** to create your new repository.
+
+After creating your repository from this template, clone it and install the dependencies:
+
 ### Install
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nekofar/farcaster-frames-template.git
+   git clone https://github.com/yourname/farcaster-frames-template.git
    ```
 2. Navigate to the project directory:
    ```bash
