@@ -28,9 +28,9 @@ Here's how:
 2. Choose the owner of the new repository and enter a repository name.
 3. Optionally, add a description for your repository.
 4. Choose the repository visibility (Public or Private).
-5. Click **Create repository from template** to create your new repository.
+5. Click **Create repository** to create your new repository from template.
 
-After creating your repository from this template, clone it and install the dependencies:
+After creating your repository from this template, clone it and install the dependencies.
 
 ### Installation
 
