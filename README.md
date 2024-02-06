@@ -18,7 +18,7 @@ ideal for those looking to create custom frames quickly and efficiently.
 - A text editor like VSCode
 - Basic understanding of TypeScript and Node.js
 
-## Using This Template
+### Use Template
 
 You can use this repository as a template to create a new GitHub repository with the same directory structure and files.
 Here's how:
@@ -32,7 +32,7 @@ Here's how:
 
 After creating your repository from this template, clone it and install the dependencies:
 
-### Install
+### Installation
 
 1. Clone the repository:
    ```bash
@@ -51,7 +51,7 @@ After creating your repository from this template, clone it and install the depe
    pnpm run dev
    ```
 
-### Usage
+### Usage Guide
 
 The template uses [Localtunnel](https://github.com/localtunnel/localtunnel) which allows you to easily test your frames
 without the need to deploy them. Everytime running your project, you will receive a random URL, for
