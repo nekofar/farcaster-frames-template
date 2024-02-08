@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.9",
   "keywords": [
     "farcaster",
     "frames",
@@ -22,12 +22,12 @@
     "@types/eslint": "8.56.2",
     "@types/eslint-config-prettier": "6.11.3",
     "@types/node": "20.11.16",
-    "@typescript-eslint/eslint-plugin": "6.20.0",
-    "@typescript-eslint/parser": "6.20.0",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.1.3",
-    "eslint-plugin-unicorn": "50.0.1",
+    "eslint-plugin-unicorn": "51.0.1",
     "localtunnel": "2.0.2",
     "prettier": "3.2.5",
     "prettier-plugin-jsdoc": "1.3.0",
