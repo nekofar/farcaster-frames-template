@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.10] - 2024-02-09
+
+### Features
+
+- Add new farcaster image aspect ratio property
+
 ## [1.0.0-alpha.9] - 2024-02-08
 
 ### Documentation
