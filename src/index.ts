@@ -6,7 +6,7 @@ import type { FrameSignaturePacket } from './types'
 const app = new Hono()
 
 app.get('/', (c) => {
-  const frameImage = `https://placehold.co/600x400?text=Hello+World`
+  const frameImage = `https://placehold.co/1080x608?text=Hello+World`
   const framePostUrl = c.req.url
 
   return c.html(html`
@@ -15,6 +15,7 @@ app.get('/', (c) => {
         <meta property="og:image" content="${frameImage}" />
         <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content="${frameImage}" />
+        <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
         <meta property="fc:frame:post_url" content="${framePostUrl}" />
         <meta property="fc:frame:button:1" content="Green" />
         <meta property="fc:frame:button:2" content="Purple" />
@@ -39,7 +40,7 @@ app.post('/', async (c) => {
     const imageText = encodeURIComponent(inputText || 'Hello World')
     const imageColor = backgroundColors[buttonIndex - 1] || 'white'
 
-    const frameImage = `https://placehold.co/600x400/${imageColor}/white?text=${imageText}`
+    const frameImage = `https://placehold.co/1080x608/${imageColor}/white?text=${imageText}`
     const framePostUrl = c.req.url
 
     return c.html(html`
@@ -47,6 +48,7 @@ app.post('/', async (c) => {
         <head>
           <meta property="fc:frame" content="vNext" />
           <meta property="fc:frame:image" content="${frameImage}" />
+          <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
           <meta property="fc:frame:post_url" content="${framePostUrl}" />
           <meta property="fc:frame:input:text" content="Enter a message" />
           <meta property="fc:frame:button:1" content="Green" />
