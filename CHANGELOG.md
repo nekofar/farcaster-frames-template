@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2024-02-10
+
+### Bug Fixes
+
+- Change place holder image size based on aspect ratio
+
 ## [1.0.0-alpha.10] - 2024-02-09
 
 ### Features
