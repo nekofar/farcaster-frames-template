@@ -6,7 +6,7 @@ import type { FrameSignaturePacket } from './types'
 const app = new Hono()
 
 app.get('/', (c) => {
-  const frameImage = `https://placehold.co/1080x608?text=Hello+World`
+  const frameImage = `https://placehold.co/1920x1005?text=Hello+World`
   const framePostUrl = c.req.url
 
   return c.html(html`
@@ -40,7 +40,7 @@ app.post('/', async (c) => {
     const imageText = encodeURIComponent(inputText || 'Hello World')
     const imageColor = backgroundColors[buttonIndex - 1] || 'white'
 
-    const frameImage = `https://placehold.co/1080x608/${imageColor}/white?text=${imageText}`
+    const frameImage = `https://placehold.co/1920x1005/${imageColor}/white?text=${imageText}`
     const framePostUrl = c.req.url
 
     return c.html(html`
