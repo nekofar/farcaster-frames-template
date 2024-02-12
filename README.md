@@ -36,7 +36,7 @@ After creating your repository from this template, clone it and install the depe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourname/farcaster-frames-template.git
+   git clone https://github.com/nekofar/farcaster-frames-template.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -44,11 +44,11 @@ After creating your repository from this template, clone it and install the depe
    ```
 3. Install the dependencies:
    ```bash
-   pnpm install
+   npm install
    ```
 4. Start the development server:
    ```bash
-   pnpm run dev
+   npm run dev
    ```
 
 ### Usage Guide
