@@ -9,8 +9,8 @@ overrides:
 
 dependencies:
   '@hono/node-server':
-    specifier: 1.7.0
-    version: 1.7.0
+    specifier: 1.8.1
+    version: 1.8.1
   hono:
     specifier: 4.0.4
     version: 4.0.4
@@ -338,8 +338,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@hono/node-server@1.7.0:
-    resolution: {integrity: sha512-W+Gy16xWZMgB8hYU4XInCwE746y8V3VDTH1J3+EhUBqbCzk4zEXo1p6dv3BiCD5O6Z4aHuoCW+mRKoJgUn3ZCA==}
+  /@hono/node-server@1.8.1:
+    resolution: {integrity: sha512-9ondWs/5EuyZOd/iyiRp0GQfMEq+IA+IbV8Wy2bgdr5+cC55I3xbQrqtXKprw7jJhfvq3IVw7ALiuvCEmLdCAA==}
     engines: {node: '>=18.14.1'}
     dev: false
 
