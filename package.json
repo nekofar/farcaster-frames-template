@@ -19,7 +19,7 @@
     "hono": "4.1.0"
   },
   "devDependencies": {
-    "@types/eslint": "8.56.5",
+    "@types/eslint": "8.56.6",
     "@types/eslint-config-prettier": "6.11.3",
     "@types/node": "20.11.28",
     "@typescript-eslint/eslint-plugin": "7.2.0",
