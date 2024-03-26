@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.8.2
     version: 1.8.2
   hono:
-    specifier: 4.1.3
-    version: 4.1.3
+    specifier: 4.1.4
+    version: 4.1.4
 
 devDependencies:
   '@types/eslint':
@@ -1337,8 +1337,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@4.1.3:
-    resolution: {integrity: sha512-V0I6qCw0gn2MA4LLtyXe6oD3/7ToeQf5Zv98o7uSuLuViQgWHJeYoYrZ4NbXhOtg4SaZjNJJm1+XuFB3LN+j6A==}
+  /hono@4.1.4:
+    resolution: {integrity: sha512-JcdAKRBHjWO5OEkEW6Lv5NUr4QLl4InshCIUnHwGY7hymCxmV1Ji/eAAr1hclQixWc3I7ZljMHXwIedNWRAcqA==}
     engines: {node: '>=16.0.0'}
     dev: false
 
