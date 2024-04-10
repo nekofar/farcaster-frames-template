@@ -34,7 +34,7 @@
     "prettier-plugin-organize-attributes": "1.0.0",
     "prettier-plugin-organize-imports": "3.2.4",
     "tsx": "4.7.1",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "resolutions": {
     "axios": ">=1.6.0"
