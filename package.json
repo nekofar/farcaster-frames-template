@@ -37,7 +37,9 @@
     "typescript": "5.4.5"
   },
   "resolutions": {
-    "axios": ">=1.6.0"
+    "axios": ">=1.6.0",
+    "hono": ">=4.2.7",
+    "@hono/node-server": ">=1.10.1"
   },
   "engines": {
     "node": ">=18.0.0",
