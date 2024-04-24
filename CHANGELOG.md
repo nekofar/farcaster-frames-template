@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.16] - 2024-04-24
+
+### Miscellaneous Tasks
+
+- Update pnpm version on template workflow
+
 ## [1.0.0-alpha.15] - 2024-04-18
 
 ### Bug Fixes
