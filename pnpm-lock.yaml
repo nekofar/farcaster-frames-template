@@ -15,7 +15,7 @@ dependencies:
     version: 1.11.1
   hono:
     specifier: '>=4.2.7'
-    version: 4.3.2
+    version: 4.3.6
 
 devDependencies:
   '@types/eslint':
@@ -1251,8 +1251,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@4.3.2:
-    resolution: {integrity: sha512-wiZcF5N06tc232U11DnqW6hP8DNoypjsrxslKXfvOqOAkTdh7K1HLZJH/92Mf+urxUTGi96f1w4xx/1Qozoqiw==}
+  /hono@4.3.6:
+    resolution: {integrity: sha512-2IqXwrxWF4tG2AR7b5tMYn+KEnWK8UvdC/NUSbOKWj/Kj11OJqel58FxyiXLK5CcKLiL8aGtTe4lkBKXyaHMBQ==}
     engines: {node: '>=16.0.0'}
     dev: false
 
