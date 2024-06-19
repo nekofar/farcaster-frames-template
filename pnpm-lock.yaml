@@ -12,7 +12,7 @@ overrides:
 dependencies:
   '@hono/node-server':
     specifier: '>=1.10.1'
-    version: 1.11.2
+    version: 1.11.3
   hono:
     specifier: '>=4.2.7'
     version: 4.4.4
@@ -352,8 +352,8 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dev: true
 
-  /@hono/node-server@1.11.2:
-    resolution: {integrity: sha512-JhX0nUC66GeDxpIdMKWDRMEwtQBa64CY907iAF1sYqb4m2p2PdSU7zkbnNhAZLg/6IjSlTuj6CF307JlBXVvpg==}
+  /@hono/node-server@1.11.3:
+    resolution: {integrity: sha512-mFg3qlKkDtMWSalX5Gyh6Zd3MXay0biGobFlyJ49i6R1smBBS1CYkNZbvwLlw+4sSrHO4ZiH7kj4TcLpl2Jr3g==}
     engines: {node: '>=18.14.1'}
     dev: false
 
