@@ -1,4 +1,4 @@
-export type FrameSignaturePacket = {
+export interface FrameSignaturePacket {
   untrustedData: {
     fid: number;
     url: string;
@@ -15,4 +15,4 @@ export type FrameSignaturePacket = {
   trustedData: {
     messageBytes: string;
   };
-};
+}
