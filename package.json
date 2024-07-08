@@ -1,6 +1,7 @@
 {
   "name": "farcaster-frames-template",
   "version": "1.0.0-alpha.18",
+  "type": "module",
   "keywords": [
     "farcaster",
     "frames",
