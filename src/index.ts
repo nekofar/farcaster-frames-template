@@ -37,7 +37,7 @@ app.post('/', async (c) => {
 
     const backgroundColors = ['green', 'purple', 'red', 'blue']
 
-    const imageText = encodeURIComponent(inputText || 'Hello World')
+    const imageText = encodeURIComponent(inputText ?? 'Hello World')
     const imageColor = backgroundColors[buttonIndex - 1] || 'white'
 
     const frameImage = `https://placehold.co/1920x1005/${imageColor}/white?text=${imageText}`
@@ -66,7 +66,7 @@ app.post('/', async (c) => {
 })
 
 const port = 3000
-console.log(`Server is running on port ${port}`)
+console.log(`Server is running on port ${port.toString()}`)
 
 serve({
   fetch: app.fetch,
