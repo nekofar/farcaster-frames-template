@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.19] - 2024-08-04
+
+### Refactor
+
+- Change `FrameSignaturePacket` from type to interface
+- Use nullish coalescing operator for default text
+- Convert port number to string in console.log
+
+### Miscellaneous Tasks
+
+- Simplify eslint lint command
+- Add module type to package.json
+- Switch eslint configuration to flat
+
 ## [1.0.0-alpha.18] - 2024-06-30
 
 ### Bug Fixes
