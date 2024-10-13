@@ -25,11 +25,11 @@ jobs:
     steps:
       # Checkout the code.
       - name: Checkout code
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4.2.1
 
       # Set up Node.js environment.
       - name: Set up Node.js environment
-        uses: actions/setup-node@v4.0.3
+        uses: actions/setup-node@v4.0.4
 
       # Install pnpm package manager.
       - name: Install pnpm package manager

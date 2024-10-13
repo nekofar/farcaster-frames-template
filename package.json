@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.21",
+  "version": "1.0.0-alpha.22",
   "type": "module",
   "keywords": [
     "farcaster",
@@ -16,29 +16,29 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@hono/node-server": "1.12.2",
-    "hono": "4.5.9"
+    "@hono/node-server": "1.13.2",
+    "hono": "4.6.4"
   },
   "devDependencies": {
     "@types/eslint": "9.6.1",
     "@types/eslint-config-prettier": "6.11.3",
-    "@types/node": "22.5.1",
-    "@typescript-eslint/parser": "8.3.0",
-    "eslint": "9.9.1",
+    "@types/node": "22.7.5",
+    "@typescript-eslint/parser": "8.8.1",
+    "eslint": "9.12.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "50.2.2",
+    "eslint-plugin-jsdoc": "50.3.2",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-regexp": "2.6.0",
-    "eslint-plugin-unicorn": "55.0.0",
-    "globals": "15.9.0",
+    "eslint-plugin-unicorn": "56.0.0",
+    "globals": "15.11.0",
     "localtunnel": "2.0.2",
     "prettier": "3.3.3",
     "prettier-plugin-jsdoc": "1.3.0",
     "prettier-plugin-organize-attributes": "1.0.0",
-    "prettier-plugin-organize-imports": "4.0.0",
-    "tsx": "4.19.0",
-    "typescript": "5.5.4",
-    "typescript-eslint": "8.3.0"
+    "prettier-plugin-organize-imports": "4.1.0",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3",
+    "typescript-eslint": "8.8.1"
   },
   "resolutions": {
     "axios": ">=1.6.0",
