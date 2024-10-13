@@ -29,7 +29,7 @@
     "eslint-plugin-jsdoc": "50.3.2",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-regexp": "2.6.0",
-    "eslint-plugin-unicorn": "55.0.0",
+    "eslint-plugin-unicorn": "56.0.0",
     "globals": "15.11.0",
     "localtunnel": "2.0.2",
     "prettier": "3.3.3",
