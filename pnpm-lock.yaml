@@ -15,10 +15,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: '>=1.10.1'
-        version: 1.13.2(hono@4.6.4)
+        version: 1.13.2(hono@4.6.6)
       hono:
         specifier: '>=4.2.7'
-        version: 4.6.4
+        version: 4.6.6
     devDependencies:
       '@types/eslint':
         specifier: 9.6.1
@@ -786,8 +786,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.6.4:
-    resolution: {integrity: sha512-T5WqBkTOcIQblqBKB5mpzaH/A+dSpvVe938xZJCHOmOuYfF7DSwE/9/10+BMvwSPq9N/f6LiQ38HxrZSQOsXKw==}
+  hono@4.6.6:
+    resolution: {integrity: sha512-euUj5qwvtkG+p38GFs0LYacwaoS2hYRAGn9ysAggiwT2QBcPnT1XYUCW3hatW4C1KzAXTYuQ08BlVDJtAGuhlg==}
     engines: {node: '>=16.9.0'}
 
   hosted-git-info@2.8.9:
@@ -1466,9 +1466,9 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@hono/node-server@1.13.2(hono@4.6.4)':
+  '@hono/node-server@1.13.2(hono@4.6.6)':
     dependencies:
-      hono: 4.6.4
+      hono: 4.6.6
 
   '@humanfs/core@0.19.0': {}
 
@@ -2021,7 +2021,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.6.4: {}
+  hono@4.6.6: {}
 
   hosted-git-info@2.8.9: {}
 
