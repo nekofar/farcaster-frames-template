@@ -16,7 +16,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@hono/node-server": "1.13.5",
+    "@hono/node-server": "1.13.6",
     "hono": "4.6.9"
   },
   "devDependencies": {
