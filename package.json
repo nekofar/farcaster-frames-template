@@ -43,6 +43,7 @@
   "resolutions": {
     "axios": ">=1.6.0",
     "hono": ">=4.2.7",
+    "@eslint/plugin-kit": ">=0.2.3",
     "@hono/node-server": ">=1.10.1"
   },
   "engines": {
