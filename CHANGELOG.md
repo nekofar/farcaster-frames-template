@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.25] - 2024-12-10
+
+### Miscellaneous Tasks
+
+- Add `outDir` configuration
+- Add GitHub Actions for build and release
+
 ## [1.0.0-alpha.24] - 2024-11-16
 
 ### Bug Fixes
