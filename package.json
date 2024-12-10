@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.25",
+  "version": "1.0.0-alpha.26",
   "type": "module",
   "keywords": [
     "farcaster",
@@ -51,5 +51,6 @@
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
-  }
+  },
+  "packageManager": "pnpm@9.7.1"
 }
