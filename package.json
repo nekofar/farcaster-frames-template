@@ -1,6 +1,6 @@
 {
   "name": "farcaster-frames-template",
-  "version": "1.0.0-alpha.26",
+  "version": "1.0.0-alpha.27",
   "type": "module",
   "keywords": [
     "farcaster",
@@ -19,20 +19,20 @@
   },
   "dependencies": {
     "@hono/node-server": "1.13.7",
-    "hono": "4.6.13"
+    "hono": "4.6.15"
   },
   "devDependencies": {
     "@types/eslint": "9.6.1",
     "@types/eslint-config-prettier": "6.11.3",
-    "@types/node": "22.10.1",
-    "@typescript-eslint/parser": "8.17.0",
-    "eslint": "9.16.0",
+    "@types/node": "22.10.2",
+    "@typescript-eslint/parser": "8.18.2",
+    "eslint": "9.17.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "50.6.0",
+    "eslint-plugin-jsdoc": "50.6.1",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-regexp": "2.7.0",
     "eslint-plugin-unicorn": "56.0.1",
-    "globals": "15.13.0",
+    "globals": "15.14.0",
     "localtunnel": "2.0.2",
     "prettier": "3.4.2",
     "prettier-plugin-jsdoc": "1.3.0",
@@ -40,7 +40,7 @@
     "prettier-plugin-organize-imports": "4.1.0",
     "tsx": "4.19.2",
     "typescript": "5.7.2",
-    "typescript-eslint": "8.17.0"
+    "typescript-eslint": "8.18.2"
   },
   "resolutions": {
     "axios": ">=1.6.0",
