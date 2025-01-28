@@ -59,7 +59,7 @@ jobs:
         uses: actions/checkout@v4.2.2 # Action for checking out a repo.
 
       - name: Setup Node.js ${{ matrix.node-version }} Environment
-        uses: actions/setup-node@v4.1.0 # Action for setting up Node environment.
+        uses: actions/setup-node@v4.2.0 # Action for setting up Node environment.
         with:
           node-version: ${{ matrix.node-version }}
 
