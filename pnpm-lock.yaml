@@ -16,10 +16,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: '>=1.10.1'
-        version: 1.14.1(hono@4.7.7)
+        version: 1.14.1(hono@4.8.5)
       hono:
         specifier: '>=4.2.7'
-        version: 4.7.7
+        version: 4.8.5
     devDependencies:
       '@types/eslint':
         specifier: 9.6.1
@@ -764,8 +764,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.7.7:
-    resolution: {integrity: sha512-2PCpQRbN87Crty8/L/7akZN3UyZIAopSoRxCwRbJgUuV1+MHNFHzYFxZTg4v/03cXUm+jce/qa2VSBZpKBm3Qw==}
+  hono@4.8.5:
+    resolution: {integrity: sha512-Up2cQbtNz1s111qpnnECdTGqSIUIhZJMLikdKkshebQSEBcoUKq6XJayLGqSZWidiH0zfHRCJqFu062Mz5UuRA==}
     engines: {node: '>=16.9.0'}
 
   hosted-git-info@7.0.2:
@@ -1413,9 +1413,9 @@ snapshots:
       '@eslint/core': 0.13.0
       levn: 0.4.1
 
-  '@hono/node-server@1.14.1(hono@4.7.7)':
+  '@hono/node-server@1.14.1(hono@4.8.5)':
     dependencies:
-      hono: 4.7.7
+      hono: 4.8.5
 
   '@humanfs/core@0.19.1': {}
 
@@ -1926,7 +1926,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.7.7: {}
+  hono@4.8.5: {}
 
   hosted-git-info@7.0.2:
     dependencies:
