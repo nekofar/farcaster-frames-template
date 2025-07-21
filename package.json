@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/eslint": "9.6.1",
     "@types/eslint-config-prettier": "6.11.3",
-    "@types/node": "22.15.2",
+    "@types/node": "24.0.15",
     "@typescript-eslint/parser": "8.31.0",
     "eslint": "9.25.1",
     "eslint-config-prettier": "10.1.2",
