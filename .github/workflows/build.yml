@@ -116,7 +116,7 @@ jobs:
 
       # Generate a changelog for the new release using Git
       - name: Generate a changelog
-        uses: orhun/git-cliff-action@v4.4.2
+        uses: orhun/git-cliff-action@v4.5.1
         id: git-cliff
         with:
           config: cliff.toml # The configuration file for git-cliff
