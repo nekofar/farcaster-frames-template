@@ -52,8 +52,8 @@ importers:
         specifier: 59.0.1
         version: 59.0.1(eslint@9.26.0)
       globals:
-        specifier: 16.0.0
-        version: 16.0.0
+        specifier: 16.3.0
+        version: 16.3.0
       localtunnel:
         specifier: 2.0.2
         version: 2.0.2
@@ -925,8 +925,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@16.0.0:
-    resolution: {integrity: sha512-iInW14XItCXET01CQFqudPOWP2jYMl7T+QRQT+UNcR/iQncN/F0UNpgd76iFkBPgNQb4+X3LV9tLJYzwh+Gl3A==}
+  globals@16.3.0:
+    resolution: {integrity: sha512-bqWEnJ1Nt3neqx2q5SFfGS8r/ahumIakg3HcwtNlrVlwXIeNumWn/c7Pn/wKzGhf6SaW6H6uWXLqC30STCMchQ==}
     engines: {node: '>=18'}
 
   gopd@1.2.0:
@@ -2204,7 +2204,7 @@ snapshots:
       eslint: 9.26.0
       esquery: 1.6.0
       find-up-simple: 1.0.1
-      globals: 16.0.0
+      globals: 16.3.0
       indent-string: 5.0.0
       is-builtin-module: 5.0.0
       jsesc: 3.1.0
@@ -2441,7 +2441,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@16.0.0: {}
+  globals@16.3.0: {}
 
   gopd@1.2.0: {}
 
