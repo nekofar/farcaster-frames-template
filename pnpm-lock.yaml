@@ -16,10 +16,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: '>=1.10.1'
-        version: 1.19.2(hono@4.9.6)
+        version: 1.19.2(hono@4.9.7)
       hono:
         specifier: '>=4.2.7'
-        version: 4.9.6
+        version: 4.9.7
     devDependencies:
       '@types/eslint':
         specifier: 9.6.1
@@ -766,8 +766,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.9.6:
-    resolution: {integrity: sha512-doVjXhSFvYZ7y0dNokjwwSahcrAfdz+/BCLvAMa/vHLzjj8+CFyV5xteThGUsKdkaasgN+gF2mUxao+SGLpUeA==}
+  hono@4.9.7:
+    resolution: {integrity: sha512-t4Te6ERzIaC48W3x4hJmBwgNlLhmiEdEE5ViYb02ffw4ignHNHa5IBtPjmbKstmtKa8X6C35iWwK4HaqvrzG9w==}
     engines: {node: '>=16.9.0'}
 
   ignore@5.3.2:
@@ -1370,9 +1370,9 @@ snapshots:
       '@eslint/core': 0.15.2
       levn: 0.4.1
 
-  '@hono/node-server@1.19.2(hono@4.9.6)':
+  '@hono/node-server@1.19.2(hono@4.9.7)':
     dependencies:
-      hono: 4.9.6
+      hono: 4.9.7
 
   '@humanfs/core@0.19.1': {}
 
@@ -1900,7 +1900,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.9.6: {}
+  hono@4.9.7: {}
 
   ignore@5.3.2: {}
 
