@@ -40,8 +40,8 @@ importers:
         specifier: 10.1.8
         version: 10.1.8(eslint@9.36.0)
       eslint-plugin-jsdoc:
-        specifier: 60.0.0
-        version: 60.0.0(eslint@9.36.0)
+        specifier: 60.1.1
+        version: 60.1.1(eslint@9.36.0)
       eslint-plugin-prettier:
         specifier: 5.5.4
         version: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.36.0))(eslint@9.36.0)(prettier@3.6.2)
@@ -596,8 +596,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-jsdoc@60.0.0:
-    resolution: {integrity: sha512-K8D5fJOkeunX+exeOkOUx+P7ZCixdRBsM3QQ+M2aazSO+64pnjH6z03wWYGQ3XTjUxpI2QXOTSQ9E75bDKi5AA==}
+  eslint-plugin-jsdoc@60.1.1:
+    resolution: {integrity: sha512-eEyINuG4pZtVFplyCPTeUif/+C14zh4fmm5IrDE5YY2Zc3IYKpdGjeaWahJcxWDDwjTVjWCw1zL9XbX3Fb0Wjg==}
     engines: {node: '>=20.11.0'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -1685,7 +1685,7 @@ snapshots:
     dependencies:
       eslint: 9.36.0
 
-  eslint-plugin-jsdoc@60.0.0(eslint@9.36.0):
+  eslint-plugin-jsdoc@60.1.1(eslint@9.36.0):
     dependencies:
       '@es-joy/jsdoccomment': 0.58.0
       are-docs-informative: 0.0.2
