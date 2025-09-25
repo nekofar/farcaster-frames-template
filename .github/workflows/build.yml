@@ -75,7 +75,7 @@ jobs:
           echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - name: Cache pnpm Store
-        uses: actions/cache@v4.2.4 # Action provides caching dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v4.3.0 # Action provides caching dependencies and build outputs to improve workflow execution time.
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }} # The path of the directory to cache.
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }} # An explicit key for restoring and saving the cache.
