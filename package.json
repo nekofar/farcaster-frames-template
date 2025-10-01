@@ -39,7 +39,7 @@
     "prettier-plugin-organize-attributes": "1.0.0",
     "prettier-plugin-organize-imports": "4.3.0",
     "tsx": "4.20.6",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "typescript-eslint": "8.45.0"
   },
   "resolutions": {
