@@ -6,7 +6,9 @@ updates:
     directory: '/'
     # Check for updates every weekday
     schedule:
-      interval: 'daily'
+      interval: "daily"
+      time: "00:00"
+      timezone: "UTC"
     # Add assignees
     assignees:
       - 'nekofar'
@@ -31,7 +33,9 @@ updates:
     directory: '/'
     # Check for updates every weekday
     schedule:
-      interval: 'daily'
+      interval: "daily"
+      time: "00:00"
+      timezone: "UTC"
     # Add assignees
     assignees:
       - 'nekofar'

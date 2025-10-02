@@ -22,7 +22,7 @@ jobs:
     steps:
       # The first step is to check out the repository code
       - name: Checking out repository code
-        uses: actions/checkout@v4.2.2 # Action for checking out a repo.
+        uses: actions/checkout@v5.0.0 # Action for checking out a repo.
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
@@ -56,15 +56,15 @@ jobs:
 
     steps: # The sequence of tasks that make up a job.
       - name: Checking out repository code
-        uses: actions/checkout@v4.2.2 # Action for checking out a repo.
+        uses: actions/checkout@v5.0.0 # Action for checking out a repo.
 
       - name: Setup Node.js ${{ matrix.node-version }} Environment
-        uses: actions/setup-node@v4.1.0 # Action for setting up Node environment.
+        uses: actions/setup-node@v4.4.0 # Action for setting up Node environment.
         with:
           node-version: ${{ matrix.node-version }}
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v4.0.0 # Action for setting up pnpm.
+        uses: pnpm/action-setup@v4.1.0 # Action for setting up pnpm.
         id: pnpm-install
         with:
           run_install: false
@@ -75,7 +75,7 @@ jobs:
           echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - name: Cache pnpm Store
-        uses: actions/cache@v4.2.0 # Action provides caching dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v4.3.0 # Action provides caching dependencies and build outputs to improve workflow execution time.
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }} # The path of the directory to cache.
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }} # An explicit key for restoring and saving the cache.
@@ -110,13 +110,13 @@ jobs:
     steps:
       # Checkout the repository code
       - name: Checkout code
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v5.0.0
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
       # Generate a changelog for the new release using Git
       - name: Generate a changelog
-        uses: orhun/git-cliff-action@v4.4.2
+        uses: orhun/git-cliff-action@v4.6.0
         id: git-cliff
         with:
           config: cliff.toml # The configuration file for git-cliff
