@@ -28,7 +28,7 @@
     "@typescript-eslint/parser": "8.46.3",
     "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-jsdoc": "61.1.11",
+    "eslint-plugin-jsdoc": "61.1.12",
     "eslint-plugin-prettier": "5.5.4",
     "eslint-plugin-regexp": "2.10.0",
     "eslint-plugin-unicorn": "62.0.0",
