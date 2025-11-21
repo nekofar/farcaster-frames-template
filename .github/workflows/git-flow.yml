@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks out the repository code under $GITHUB_WORKSPACE, so the job can access it
       - name: Checkout Repository Code
-        uses: actions/checkout@v5.0.1
+        uses: actions/checkout@v6.0.0
 
       # This step uses the Git Flow Action to create PRs based on branch types
       - name: Execute Git Flow Action
