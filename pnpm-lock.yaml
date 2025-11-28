@@ -44,7 +44,7 @@ importers:
         version: 61.4.1(eslint@9.39.1)
       eslint-plugin-prettier:
         specifier: 5.5.4
-        version: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.1))(eslint@9.39.1)(prettier@3.6.2)
+        version: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.1))(eslint@9.39.1)(prettier@3.7.1)
       eslint-plugin-regexp:
         specifier: 2.10.0
         version: 2.10.0(eslint@9.39.1)
@@ -58,17 +58,17 @@ importers:
         specifier: 2.0.2
         version: 2.0.2
       prettier:
-        specifier: 3.6.2
-        version: 3.6.2
+        specifier: 3.7.1
+        version: 3.7.1
       prettier-plugin-jsdoc:
         specifier: 1.5.0
-        version: 1.5.0(prettier@3.6.2)
+        version: 1.5.0(prettier@3.7.1)
       prettier-plugin-organize-attributes:
         specifier: 1.0.0
-        version: 1.0.0(prettier@3.6.2)
+        version: 1.0.0(prettier@3.7.1)
       prettier-plugin-organize-imports:
         specifier: 4.3.0
-        version: 4.3.0(prettier@3.6.2)(typescript@5.9.3)
+        version: 4.3.0(prettier@3.7.1)(typescript@5.9.3)
       tsx:
         specifier: 4.20.6
         version: 4.20.6
@@ -1026,8 +1026,8 @@ packages:
       vue-tsc:
         optional: true
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.7.1:
+    resolution: {integrity: sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1686,10 +1686,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.1))(eslint@9.39.1)(prettier@3.6.2):
+  eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.1))(eslint@9.39.1)(prettier@3.7.1):
     dependencies:
       eslint: 9.39.1
-      prettier: 3.6.2
+      prettier: 3.7.1
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -2150,25 +2150,25 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-jsdoc@1.5.0(prettier@3.6.2):
+  prettier-plugin-jsdoc@1.5.0(prettier@3.7.1):
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.1
       mdast-util-from-markdown: 2.0.2
-      prettier: 3.6.2
+      prettier: 3.7.1
     transitivePeerDependencies:
       - supports-color
 
-  prettier-plugin-organize-attributes@1.0.0(prettier@3.6.2):
+  prettier-plugin-organize-attributes@1.0.0(prettier@3.7.1):
     dependencies:
-      prettier: 3.6.2
+      prettier: 3.7.1
 
-  prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.9.3):
+  prettier-plugin-organize-imports@4.3.0(prettier@3.7.1)(typescript@5.9.3):
     dependencies:
-      prettier: 3.6.2
+      prettier: 3.7.1
       typescript: 5.9.3
 
-  prettier@3.6.2: {}
+  prettier@3.7.1: {}
 
   proxy-from-env@1.1.0: {}
 
