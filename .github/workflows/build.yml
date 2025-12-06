@@ -145,7 +145,7 @@ jobs:
 
       # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@v1.0.14
+        uses: nekofar/create-github-release@v1.0.15
         with:
           tag: v${{ steps.release.outputs.version }} # The name of the tag to be released
           title: v${{ steps.release.outputs.version }} # The title for the release
