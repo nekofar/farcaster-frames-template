@@ -31,7 +31,7 @@
     "eslint-plugin-jsdoc": "61.5.0",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-regexp": "2.10.0",
-    "eslint-plugin-unicorn": "62.0.0",
+    "eslint-plugin-unicorn": "63.0.0",
     "globals": "17.2.0",
     "localtunnel": "2.0.2",
     "prettier": "3.8.1",
